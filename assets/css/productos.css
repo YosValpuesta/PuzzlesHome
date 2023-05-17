@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap'); /*h1*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins:wght@100&display=swap'); /*info*/
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    padding-top: 6.5%;
+}
+
+.container {
+    padding-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    background-color: #333732;
+}
+
+#productoVenta {
+    background-color: #363237;
+    padding: .3rem;
+    width: 100%;
+}
+
+#precio {
+    font-size: 20px;
+}
+
+.card .card-body{
+    background-color: #2d4262;
+    color: aliceblue;
+    padding: 0.5rem;
+    height: 60px;
+}
+
+.list-group-item {
+    background-color: #d09683;
+    color: rgb(0, 0, 0);
+}
+
+.pagination {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.btn-outline-danger {
+    color: #ffffff;
+    border-color: #000000;
+    background-color: #2d4262;
+}
+
+.btn-outline-danger:hover {
+    color: #ffffff;
+    border-color: #000000;
+    background-color: #580087;
+}

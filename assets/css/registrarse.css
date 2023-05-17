@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@200&display=swap'); /*form*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap'); /*h1*/
+
+body {
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+form {
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    width: 450px;
+    padding: .5rem 2rem 1.5rem;
+    border-radius: 25px;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 17px;
+    box-shadow: 0 20px 35px black;
+}
+
+#titulo {
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    padding-top: .001rem;
+    padding-bottom: .001rem;
+}
+
+h1 {
+    display: block;
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+    margin: auto;
+}
+
+h3 {
+    margin: auto;
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    font-style: oblique;
+}
+
+label {
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    font-weight: 600;
+}
+
+input {
+    border: .5px solid black;
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+select {
+    border: .5px solid black;
+    width:72%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#bloque {
+    width: 72%;
+}
+
+#txtContraseña {
+    width: 58%;
+    display: inline;
+}
+
+.btn {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding: .3rem;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: #93d7ff;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+}
+
+#cuenta {
+    color: #000000;
+    float: left;
+    margin-left: 15px;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.error {
+    background-color: rgb(252, 224, 217);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.success {
+    background-color: rgb(180, 218, 250);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+}
+

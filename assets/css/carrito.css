@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap'); /*h1, formulario*/
+
+.table-responsive {
+    background: #336b87;
+    border-radius:1.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    padding-bottom: 0.1rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    width: 90%;
+}
+
+.table-responsive table {
+    width: 70%;
+}
+
+thead {
+    background-color: #2a3132;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+tbody {
+    background-color: #90afc5;
+}
+
+#comprar {
+    background-color: #dbedfa;
+}
+
+#imagen {
+    width: 10%;
+}
+
+#datos {
+    width: 25%;
+}
+
+#producto {
+    width: 8%;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+#tableTotal {
+    width: 20%;
+    
+}
